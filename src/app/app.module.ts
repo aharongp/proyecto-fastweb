@@ -15,6 +15,10 @@ import { FooterComponent } from './shared/footer/footer.component';
 
 import { HomeModule } from './home/home.module';
 import { LoginComponent } from './login/login.component';
+import { PricingComponent } from './pricing/pricing.component';
+import { ServicesProductComponent } from './services-product/services-product.component';
+import { BuyComponent } from './buy/buy.component';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +28,10 @@ import { LoginComponent } from './login/login.component';
     ProfileComponent,
     NavbarComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    PricingComponent,
+    ServicesProductComponent,
+    BuyComponent,
   ],
   imports: [
     BrowserModule,
